@@ -1,0 +1,209 @@
+body{
+    background-color:#6A6B83 ;
+    padding: 0;
+    margin: 0;
+
+}
+
+.site-main{
+    max-width: 1200px;
+    padding: 0 15px;
+    margin: auto;
+}
+
+.row{
+    margin-inline: 50px;
+   
+}
+
+nav{
+    background-color: #76949F;
+}
+
+footer{
+    background-color: #76949F;
+
+}
+
+.headings{
+    position:relative;
+    width: 100%;
+    margin-top: 30px;
+}
+
+.portada{
+    opacity: 0.2;
+    width: 100%;
+}
+
+.titulo{
+    position: absolute;
+    text-align: center;
+    top:80px;
+    left:380px
+}
+
+.margin{
+    max-width: 1200px;
+    padding: 0 15px;
+    margin: auto;
+}
+
+.title{
+    color: #533747;
+    font-size: 30px;
+    font-weight: bolder;
+    font-family: Verdana;
+}
+
+.subtitle{
+    color: #533747;
+    font-size: 20px;
+    font-family: Verdana;
+    font-weight: bold;
+    
+}
+
+.articles{
+    color: #533747;
+    font-family: Verdana;
+    font-weight: bold;
+    
+}
+
+.texto{
+    color: #86BBBD;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.nav-link:hover{
+    color:#533747;
+}
+
+.navbar-brand:hover{
+    color:#533747;
+}
+
+.subtitle:hover{
+    color:#533747;    
+}
+
+.object-fit{
+    height: 80px;
+    width: 100px;
+}
+
+.article-fotter:hover{
+    color:#533747; 
+}
+
+.article-fotter{
+    color: #533747;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.footer-text{
+    color: #6A6B83;
+    font-size: 13px;
+}
+
+
+.tags{
+    background-color: #6A6B83;
+    border-radius: 10px;
+    margin: 20px;
+    
+}
+
+/* post */
+.tags-post{
+    background-color: #76949F;
+    border-radius: 10px;
+    margin: 20px;
+    
+}
+
+.text-right{
+    float: right;
+}
+
+
+main {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+.text-right{
+    float: right;
+}
+
+h1, h2, h3, p, ul, img {
+    margin-bottom: 20px;
+    color: #333;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+section {
+    margin-bottom: 40px;
+}
+
+
+
+.quote {
+    font-style: italic;
+    color: #555;
+}
+
+
+.timeline {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.timeline-event {
+    width: 48%;
+    margin-bottom: 20px;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+}
+
+@media (max-width: 768px) {
+    .timeline-event {
+        width: 100%;
+    }
+}
+
+
+.game-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.game-card {
+    width: 30%;
+    margin-bottom: 20px;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+}
+
+@media (max-width: 768px) {
+    .game-card {
+        width: 100%;
+    }
+}
