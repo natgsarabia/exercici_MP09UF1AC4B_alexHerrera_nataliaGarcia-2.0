@@ -2,12 +2,18 @@ body{
     background-color:#6A6B83 ;
     padding: 0;
     margin: 0;
+
 }
 
 .site-main{
     max-width: 1200px;
     padding: 0 15px;
     margin: auto;
+}
+
+.row{
+    margin-inline: 50px;
+   
 }
 
 nav{
@@ -17,6 +23,24 @@ nav{
 footer{
     background-color: #76949F;
 
+}
+
+.headings{
+    position:relative;
+    width: 100%;
+    margin-top: 30px;
+}
+
+.portada{
+    opacity: 0.2;
+    width: 100%;
+}
+
+.titulo{
+    position: absolute;
+    text-align: center;
+    top:80px;
+    left:380px
 }
 
 .margin{
@@ -86,9 +110,35 @@ footer{
 }
 
 
+.justify-content-center{
+    text-align: center;
+}
+
+
 .tags{
     background-color: #6A6B83;
     border-radius: 10px;
     margin: 20px;
     
 }
+
+/* post */
+.tags-post{
+    background-color: #76949F;
+    border-radius: 10px;
+    margin: 20px;
+    
+}
+
+.text-right{
+    float: right;
+
+    text-align: center;
+}
+
+
+
+
+
+
+
